@@ -3,12 +3,12 @@
 #include <WiFiClientSecure.h>
 
 // Wi-Fi credentials
-const char* ssid = "secure";          // Replace with your Wi-Fi SSID
-const char* password = "Mohamed@1980";  // Replace with your Wi-Fi password
+const char* ssid = "";          // Replace with your Wi-Fi SSID
+const char* password = "";  // Replace with your Wi-Fi password
 
 // CallMeBot credentials for WhatsApp
-const char* phoneNumber = "201557370943";   // Replace with your phone number (omit + sign)
-const char* apiKey = "9857432";             // Replace with your CallMeBot API key
+const char* phoneNumber = "";   // Replace with your phone number (omit + sign)
+const char* apiKey = "";             // Replace with your CallMeBot API key
 const char* message = "Security system says Hi";   // WhatsApp message text
 
 // PIR Sensor and Buzzer pins
